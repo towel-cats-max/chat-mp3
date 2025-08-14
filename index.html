@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MP3再生テスト</title>
+  </head>
+  <body>
+    <h2>🎵 MP3再生テストページ</h2>
+    <button onclick="playAudio()">▶ 再生</button>
+    <audio id="myAudio" src="voicemail.mp3"></audio>
+
+    <script>
+      function playAudio() {
+        document.getElementById("myAudio").play();
+      }
+    </script>
+  </body>
+</html>
